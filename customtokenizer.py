@@ -13,7 +13,7 @@ def decode_tokens(tokens):
 
 # Hindi text sample
 
-hindi_text = "यह एक हिंदी भाषा का उदाहरण है।"
+hindi_text = "यह एक हिंदी भाषा का उदाहरण है।" #Can be updated to take hindi text input from user 
 hindi_tokens = hindi_tokenizer(hindi_text)
 decoded_text = decode_tokens(hindi_tokens)
 
@@ -22,3 +22,4 @@ print("\nHindi text tokens\n", hindi_tokens)
 print("\nDecoded tokens\n", decoded_text)
 
 
+#unicode vocab size 137k approx
